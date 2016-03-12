@@ -72,8 +72,8 @@ function PostTabToRepo(json) {
 //			data: json
 			data: JSON.stringify(json)
 		})
-		.done(function() {
-			console.log("success");
+		.done(function(json) {
+			console.log(json);
 		})
 		.fail(function() {
 			console.log("error");
