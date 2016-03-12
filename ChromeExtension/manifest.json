@@ -1,0 +1,25 @@
+﻿{
+	"manifest_version": 2,
+	"name": "Stash Grabber",
+	"version": "1.0",
+	"description": "Grab stashs from POE",
+	"icons": {
+		"128": "images/Chaos_orb.png"
+	},
+	"browser_action": {
+		"default_icon": {
+			"128": "images/Chaos_orb.png"
+		},
+		"default_title": "Stash Grabber",
+		"default_popup": "popup.html"
+	},
+	"background": {
+		"scripts": []
+	},
+	"permissions": [
+		"activeTab",
+		"https://www.pathofexile.com/",
+		"http://localhost:56666/",
+		"http://localhost/"
+	]
+}
