@@ -1,6 +1,8 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using Microsoft.AspNet.Mvc;
 using Model.SimpleModels;
+using Persistence;
 
 namespace Service.Controllers
 {
@@ -20,9 +22,13 @@ namespace Service.Controllers
         }
 
         [HttpPost]
-        public void Post([FromBody] StashTab value)
+        public IActionResult Post([FromBody] StashTab value)
         {
 			var xx = value;
+			var repo = new StashTabRepository();
+	        var result = repo.Save(value.items);
+
+	        return Json(result);
         }
     }
 }

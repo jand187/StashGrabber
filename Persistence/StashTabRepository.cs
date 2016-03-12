@@ -1,34 +1,59 @@
-﻿using System.Data.SQLite;
+﻿using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Linq;
+using Dapper;
+using Model.SimpleModels;
 
 namespace Persistence
 {
 	public class StashTabRepository
 	{
-	}
-
-	public class Database
-	{
-		public string DbFile
+		public SaveResult Save(IEnumerable<StashItem> items)
 		{
-			get { return  @"C:\Users\JanDaniel\Documents\GitHub\StashGrabber\SimpleDb.sqlite"; }
-		}
+			var result = new SaveResult();
 
-		public void CreateDatbase()
-		{
-			var conn = new SQLiteConnection("Data Source=" + DbFile);
-			using (conn)
+			using (var conn = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=StashGrabber;Integrated Security=True"))
 			{
 				conn.Open();
-				var cmd = new SQLiteCommand(
-					@"create table ItemsRaw (
-						 ID								integer identity primary key AUTOINCREMENT,
-						 Name							varchar(100) not null,
-						 ExternalId						varchar(100) not null,
-						 Updated						datetime not null
-					)", conn);
 
-				cmd.ExecuteNonQuery();
+				foreach (var item in items)
+				{
+					var stashItems = conn.Query<StashItem>("SELECT * FROM ItemsRaw WHERE ExternalId=@ExternalId", item);
+					if (stashItems.Any())
+					{
+						conn.Execute(@"
+							UPDATE ItemsRaw 
+							SET 
+								Name = @Name, 
+								ItemLevel = @ItemLevel, 
+								Icon = @Icon, 
+								TypeLine = @TypeLine, 
+								Corrupted = @Corrupted, 
+								Identified = @Identified, 
+								Note = @Note, 
+								InventoryId  = @InventoryId ,
+								LastUpdated = GETDATE()
+							WHERE 
+								ExternalId = @ExternalId", items);
+						result.ItemsUpdated++;
+					}
+					else
+					{
+						conn.Execute(@"
+							INSERT INTO ItemsRaw 
+							VALUES	(@Name, @ExternalId, @ItemLevel, @Icon, @TypeLine, @Corrupted, @Identified, @Note, @InventoryId, GETDATE())", item);
+						result.ItemsInserted++;
+					}
+				}
 			}
+
+			return result;
 		}
+	}
+
+	public class SaveResult
+	{
+		public int ItemsInserted { get; set; }
+		public int ItemsUpdated { get; set; }
 	}
 }
