@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNet.Mvc;
+using Newtonsoft.Json;
 
 // For more information on enabling Web API for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -54,15 +55,48 @@ namespace Service.Controllers
 
     public class StashItem
     {
-        public string name { get; set; }
-        public string ilvl { get; set; }
-        public string icon { get; set; }
-        public string typeLine { get; set; }
-        public string corrupted { get; set; }
-        public string identified { get; set; }
-        public string note { get; set; }
-        public IEnumerable<ItemSocket> sockets { get; set; }
-        public IEnumerable<ItemProperty> properties { get; set; }
+        [JsonProperty("name")]
+        public string Name { get; set; }
+
+        [JsonProperty("id")]
+        public string ExternalId { get; set; }
+
+        [JsonProperty("ilvl")]
+        public string ItemLevel { get; set; }
+
+        [JsonProperty("icon")]
+        public string Icon { get; set; }
+
+        [JsonProperty("typeLine")]
+        public string TypeLine { get; set; }
+
+        [JsonProperty("corrupted")]
+        public string Corrupted { get; set; }
+
+        [JsonProperty("identified")]
+        public string Identified { get; set; }
+
+        [JsonProperty("note")]
+        public string Note { get; set; }
+        
+        [JsonProperty("inventoryId")]
+        public string InventoryId { get; set; }
+
+        [JsonProperty("sockets")]
+        public IEnumerable<ItemSocket> Sockets { get; set; }
+
+        [JsonProperty("properties")]
+        public IEnumerable<ItemProperty> Properties { get; set; }
+
+        [JsonProperty("requirements")]
+        public IEnumerable<ItemProperty> Requirements { get; set; }
+
+        [JsonProperty("implicitMods")]
+        public IEnumerable<string> ImplicitMods { get; set; }
+
+        [JsonProperty("explicitMods")]
+        public IEnumerable<string> ExplicitMods { get; set; }
+
     }
 
     public class ItemSocket
