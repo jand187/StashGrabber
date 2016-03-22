@@ -1,0 +1,1336 @@
+﻿{
+	"numTabs": 125,
+	"items": [
+		{
+			"verified": false,
+			"w": 2,
+			"h": 3,
+			"ilvl": 69,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter3.png?scale=1&w=2&h=3&v=d3b8c53aaafdd458d20041a30de3c3723",
+			"support": true,
+			"league": "Standard",
+			"id": "4fe3eac41912233bc56d0b5d9f365c1ebbb407dd6faa83d05013190adad0638c",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 0,
+					"attr": "I"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Doom Smasher",
+			"typeLine": "Tyrant's Sekhem",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "One Handed Mace",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Quality",
+					"values": [ [ "+20%", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "105-180", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Elemental Damage",
+					"values": [ [ "31-55", 5 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "6.00%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.56", 1 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "58", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [ [ "99", 0 ] ],
+					"displayMode": 1
+				},
+				{
+					"name": "Int",
+					"values": [ [ "99", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [ "10% increased Elemental Damage" ],
+			"explicitMods": [ "94% increased Physical Damage", "Adds 31-55 Cold Damage", "25% increased Attack Speed", "26% increased Mana Regeneration Rate" ],
+			"craftedMods": [ "Adds 13-17 Physical Damage" ],
+			"frameType": 2,
+			"x": 3,
+			"y": 6,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 4,
+			"ilvl": 69,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace2.png?scale=1&w=2&h=4&v=c013588ad91c15f8411b58f3d5b933003",
+			"support": true,
+			"league": "Standard",
+			"id": "a791e81003bbccd33f4e7b65557e7eeabac01cdd9ee91520317fb125399f9e4e",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 1,
+					"attr": "S"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Rage Breaker",
+			"typeLine": "Karui Maul",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "Two Handed Mace",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Quality",
+					"values": [ [ "+20%", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "210-317", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "5.00%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.33", 1 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "57", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [ [ "182", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [ "20% increased Stun Duration on Enemies" ],
+			"explicitMods": [ "97% increased Physical Damage", "21% increased Attack Speed", "+18% to Cold Resistance", "+14 Life gained on Kill", "+61 to Accuracy Rating" ],
+			"craftedMods": [ "Adds 18-28 Physical Damage" ],
+			"frameType": 2,
+			"x": 6,
+			"y": 0,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 3,
+			"ilvl": 77,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/OneHandWeapons/Scepters/scepter2.png?scale=1&w=2&h=3&v=5c21b55f4b81314102e9537d1df3a9733",
+			"support": true,
+			"league": "Standard",
+			"id": "d07326b1cb81d07aaac5c2c7a5d40c4f6040b9b3774037fdedc88d421ef99af5",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 0,
+					"attr": "I"
+				},
+				{
+					"group": 1,
+					"attr": "S"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Apocalypse Weaver",
+			"typeLine": "Grinning Fetish",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "One Handed Mace",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "55-84", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Elemental Damage",
+					"values": [ [ "3-32", 6 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "8.10%", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.50", 0 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "58", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [ [ "62", 0 ] ],
+					"displayMode": 1
+				},
+				{
+					"name": "Int",
+					"values": [ [ "62", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [ "10% increased Elemental Damage" ],
+			"explicitMods": [ "163% increased Physical Damage", "14% increased Cold Damage", "Adds 3-32 Lightning Damage", "35% increased Critical Strike Chance", "+266 to Accuracy Rating" ],
+			"frameType": 2,
+			"x": 0,
+			"y": 9,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 3,
+			"ilvl": 74,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword3.png?scale=1&w=1&h=3&v=0bf4b174a0c80b2fd80a12026ed04a053",
+			"support": true,
+			"league": "Standard",
+			"id": "10c42bac220e2b3b4240db601d3699712dfa87774c8b9d0625cf5821d7a6a0a1",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 1,
+					"attr": "D"
+				},
+				{
+					"group": 1,
+					"attr": "I"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Hypnotic Sever",
+			"typeLine": "Corsair Sword",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "One Handed Sword",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "32-127", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Elemental Damage",
+					"values": [ [ "2-33", 6 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "5.00%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.55", 0 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "58", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [ [ "81", 0 ] ],
+					"displayMode": 1
+				},
+				{
+					"name": "Dex",
+					"values": [ [ "117", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [ "18% increased Accuracy Rating" ],
+			"explicitMods": [ "101% increased Physical Damage", "+15 to Strength", "Adds 2-33 Lightning Damage", "+59 to Accuracy Rating" ],
+			"frameType": 2,
+			"x": 0,
+			"y": 6,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 4,
+			"ilvl": 70,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace2.png?scale=1&w=2&h=4&v=c013588ad91c15f8411b58f3d5b933003",
+			"support": true,
+			"league": "Standard",
+			"id": "cdb9320792e9bb144a6cc192339d24d858c989bdc970e6a71c42d81d601818e6",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 1,
+					"attr": "D"
+				},
+				{
+					"group": 2,
+					"attr": "D"
+				},
+				{
+					"group": 2,
+					"attr": "S"
+				},
+				{
+					"group": 2,
+					"attr": "S"
+				},
+				{
+					"group": 3,
+					"attr": "S"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Dragon Crack",
+			"typeLine": "Karui Maul",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "Two Handed Mace",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "209-317", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "6.55%", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.10", 0 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "57", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [ [ "182", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [ "20% increased Stun Duration on Enemies" ],
+			"explicitMods": [ "122% increased Physical Damage", "Adds 15-25 Physical Damage", "31% increased Critical Strike Chance", "+37% to Fire Resistance", "+2 Life gained for each Enemy hit by Attacks", "+68 to Accuracy Rating" ],
+			"frameType": 2,
+			"x": 0,
+			"y": 0,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 4,
+			"ilvl": 56,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow8.png?scale=1&w=2&h=4&v=6c31d15f02f212101bb0bcdb0bbe5c863",
+			"support": true,
+			"league": "Standard",
+			"id": "002bab94f7df6fc1270505230efcffbdf26497f81d147fd40381696aa27fdf25",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 0,
+					"attr": "D"
+				},
+				{
+					"group": 0,
+					"attr": "D"
+				},
+				{
+					"group": 1,
+					"attr": "D"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Grim Twine",
+			"typeLine": "Decimation Bow",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "Bow",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Quality",
+					"values": [ [ "+20%", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "127-280", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Elemental Damage",
+					"values": [ [ "7-76", 6 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "5.00%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.35", 1 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "53", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Dex",
+					"values": [ [ "170", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"explicitMods": [ "111% increased Physical Damage", "Adds 24-40 Physical Damage", "+8 to Dexterity", "Adds 7-76 Lightning Damage", "12% increased Attack Speed", "+4 Life gained for each Enemy hit by your Attacks" ],
+			"frameType": 2,
+			"x": 7,
+			"y": 8,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 3,
+			"ilvl": 66,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe4.png?scale=1&w=2&h=3&v=a89a2c0b7638bcc048ccae09caad97013",
+			"support": true,
+			"league": "Standard",
+			"id": "7b7b6c393607e5881e89ef535707d294ef3e33da1a194802525e91f5404fa7f7",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 1,
+					"attr": "S"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Maelström Edge",
+			"typeLine": "Reaver Axe",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "One Handed Axe",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "63-186", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Elemental Damage",
+					"values": [ [ "24-47", 4 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "5.00%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.20", 0 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "61", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [ [ "136", 1 ] ],
+					"displayMode": 1
+				},
+				{
+					"name": "Dex",
+					"values": [ [ "46", 1 ] ],
+					"displayMode": 1
+				}
+			],
+			"explicitMods": [ "102% increased Physical Damage", "Adds 24-47 Fire Damage", "9% reduced Enemy Stun Threshold", "18% reduced Attribute Requirements" ],
+			"frameType": 2,
+			"x": 2,
+			"y": 9,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 3,
+			"ilvl": 69,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/OneHandWeapons/OneHandSwords/OneHandSword8.png?scale=1&w=2&h=3&v=c134bf2ee29330334f8b71f4cc992f133",
+			"support": true,
+			"league": "Standard",
+			"id": "519c6bed29b7955875fe6ebad9cc109d14ca15e9c6516731fc0df771bc7e4a59",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 0,
+					"attr": "D"
+				},
+				{
+					"group": 0,
+					"attr": "S"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Damnation Barb",
+			"typeLine": "Midnight Blade",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "One Handed Sword",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Quality",
+					"values": [ [ "+20%", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "71-201", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Elemental Damage",
+					"values": [ [ "39-65", 4 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "5.00%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.30", 0 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "68", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [ [ "113", 0 ] ],
+					"displayMode": 1
+				},
+				{
+					"name": "Dex",
+					"values": [ [ "113", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [ "18% increased Accuracy Rating" ],
+			"explicitMods": [ "152% increased Physical Damage", "Adds 39-65 Fire Damage", "+20% to Lightning Resistance", "+9 Life gained on Kill" ],
+			"frameType": 2,
+			"x": 1,
+			"y": 6,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 3,
+			"ilvl": 68,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/OneHandWeapons/Daggers/Dagger3.png?scale=1&w=1&h=3&v=7a6e05042e237a2936a5f18421cb77bd3",
+			"support": true,
+			"league": "Standard",
+			"id": "ad37f6cbb434f87b619bbd30310ae098a9c821edea0bc6c39ee300292cc21919",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "I"
+				},
+				{
+					"group": 0,
+					"attr": "I"
+				},
+				{
+					"group": 1,
+					"attr": "D"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Hypnotic Barb",
+			"typeLine": "Slaughter Knife",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "Dagger",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "17-145", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Elemental Damage",
+					"values": [ [ "12-24", 4 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "6.60%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.40", 0 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "58", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Dex",
+					"values": [ [ "81", 0 ] ],
+					"displayMode": 1
+				},
+				{
+					"name": "Int",
+					"values": [ [ "117", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [ "40% increased Global Critical Strike Chance" ],
+			"explicitMods": [ "86% increased Physical Damage", "Adds 12-24 Fire Damage", "+14 Life gained on Kill", "33% increased Stun Duration on Enemies" ],
+			"frameType": 2,
+			"x": 9,
+			"y": 9,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 4,
+			"ilvl": 68,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword5.png?scale=1&w=2&h=4&v=e9dc53c8e2be807d36144042ef27f8ea3",
+			"support": true,
+			"league": "Standard",
+			"id": "725f6dae7f9be96cbe8e39fa3262675cb0dd42aebceaa2f6bec2f1197051a80a",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 1,
+					"attr": "S"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Wrath Needle",
+			"typeLine": "Vaal Greatsword",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "Two Handed Sword",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Quality",
+					"values": [ [ "+20%", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "193-384", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "5.00%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.20", 0 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "63", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [ [ "122", 0 ] ],
+					"displayMode": 1
+				},
+				{
+					"name": "Dex",
+					"values": [ [ "104", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [ "18% increased Accuracy Rating" ],
+			"explicitMods": [ "128% increased Physical Damage", "34% increased Elemental Damage with Weapons", "+31% to Global Critical Strike Multiplier", "+40% to Fire Resistance", "+35% to Cold Resistance" ],
+			"craftedMods": [ "Adds 18-30 Physical Damage" ],
+			"frameType": 2,
+			"x": 10,
+			"y": 0,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 4,
+			"ilvl": 71,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandSwords/TwoHandSword2.png?scale=1&w=2&h=4&v=c6eb2632cbcdf26da86bc4c2db397e7d3",
+			"support": true,
+			"league": "Standard",
+			"id": "c6cf310a5dc7909d70310a26e182df27c613ba93894b2f3d235a020ff88b12d8",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "D"
+				},
+				{
+					"group": 0,
+					"attr": "I"
+				},
+				{
+					"group": 1,
+					"attr": "D"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Honour Sever",
+			"typeLine": "Headman's Sword",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "Two Handed Sword",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "113-266", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Elemental Damage",
+					"values": [
+						[ "10-19", 5 ],
+						[ "6-120", 6 ]
+					],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "5.00%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.20", 0 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "57", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [ [ "106", 0 ] ],
+					"displayMode": 1
+				},
+				{
+					"name": "Dex",
+					"values": [ [ "89", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [ "18% increased Accuracy Rating" ],
+			"explicitMods": [ "118% increased Physical Damage", "+11 to Dexterity", "Adds 10-19 Cold Damage", "Adds 6-120 Lightning Damage", "+73 to Accuracy Rating" ],
+			"frameType": 2,
+			"x": 2,
+			"y": 0,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 1,
+			"h": 4,
+			"ilvl": 74,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/OneHandWeapons/Rapiers/Rapier2.png?scale=1&w=1&h=4&v=ffa3d6cc78c766584fff267ff269a2bc3",
+			"support": true,
+			"league": "Standard",
+			"id": "c87b9c8f3f2fac5d93140c11be129fc70462496cf7257f09578e4a02ceb9fdfc",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "I"
+				},
+				{
+					"group": 1,
+					"attr": "D"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Horror Hunger",
+			"typeLine": "Dragonbone Rapier",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "One Handed Sword",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "42-172", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Elemental Damage",
+					"values": [ [ "13-20", 5 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "5.50%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.50", 0 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "58", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Dex",
+					"values": [ [ "185", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [ "+20% to Global Critical Strike Multiplier" ],
+			"explicitMods": [ "165% increased Physical Damage", "+38 to Strength", "Adds 13-20 Cold Damage", "+143 to Accuracy Rating" ],
+			"frameType": 2,
+			"x": 7,
+			"y": 4,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 4,
+			"ilvl": 73,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/TwoHandWeapons/Bows/Bow7.png?scale=1&w=2&h=4&v=3f2adda112858b7dbd4181d7cb7619223",
+			"support": true,
+			"league": "Standard",
+			"id": "dd9d2c8a9e491f7c122217651a1fe82f38be37f85f9320e6dd810febf43747dd",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "D"
+				},
+				{
+					"group": 1,
+					"attr": "D"
+				},
+				{
+					"group": 1,
+					"attr": "D"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Miracle Rain",
+			"typeLine": "Imperial Bow",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "Bow",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "37-120", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Elemental Damage",
+					"values": [ [ "42-66", 5 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "6.05%", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.55", 1 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "66", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Dex",
+					"values": [ [ "212", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [ "7% increased Elemental Damage with Weapons" ],
+			"explicitMods": [ "Adds 18-42 Physical Damage", "Adds 42-66 Cold Damage", "7% increased Attack Speed", "21% increased Critical Strike Chance", "+43% to Fire Resistance" ],
+			"frameType": 2,
+			"x": 10,
+			"y": 4,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 4,
+			"ilvl": 72,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace7.png?scale=1&w=2&h=4&v=d6896e22028d3fdbc01f4cafb6fe924e3",
+			"support": true,
+			"league": "Standard",
+			"id": "92d692cb1676c1ac351e6e146b932f9d5df0f9a8fafac9c90278fccf647d3c3c",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "S"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Wrath Knell",
+			"typeLine": "Dread Maul",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "Two Handed Mace",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Quality",
+					"values": [ [ "+20%", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "171-258", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "5.00%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.51", 1 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "54", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [ [ "173", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [ "20% increased Stun Duration on Enemies" ],
+			"explicitMods": [ "Adds 21-42 Physical Damage", "21% increased Attack Speed", "+2 Life gained for each Enemy hit by Attacks", "+137 to Accuracy Rating" ],
+			"craftedMods": [ "77% increased Physical Damage" ],
+			"frameType": 2,
+			"x": 8,
+			"y": 0,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 3,
+			"ilvl": 76,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe3.png?scale=1&w=2&h=3&v=b2537cc31a2470a434ee7c8488ed758e3",
+			"support": true,
+			"league": "Standard",
+			"id": "36abf3c42ae3f027003a47beaaeb271a2aa59c22ebffd6cfe82bb6a5b45baf13",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 0,
+					"attr": "S"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Pandemonium Gnash",
+			"typeLine": "Siege Axe",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "One Handed Axe",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "39-75", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Elemental Damage",
+					"values": [ [ "1-3", 5 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "5.00%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.74", 1 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "59", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [ [ "119", 0 ] ],
+					"displayMode": 1
+				},
+				{
+					"name": "Dex",
+					"values": [ [ "82", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"explicitMods": [ "Adds 7-16 Physical Damage", "Adds 1-3 Cold Damage", "16% increased Attack Speed", "14% reduced Enemy Stun Threshold" ],
+			"frameType": 2,
+			"x": 10,
+			"y": 9,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 4,
+			"ilvl": 70,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/TwoHandWeapons/TwoHandMaces/TwoHandMace7.png?scale=1&w=2&h=4&v=d6896e22028d3fdbc01f4cafb6fe924e3",
+			"support": true,
+			"league": "Standard",
+			"id": "d9cc216a1fda71e643bc993b19286290d4ddc570586638c32447872dc256e351",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 0,
+					"attr": "S"
+				},
+				{
+					"group": 0,
+					"attr": "S"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Entropy Star",
+			"typeLine": "Dread Maul",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "Two Handed Mace",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Quality",
+					"values": [ [ "+20%", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "241-342", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "5.00%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.25", 0 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "54", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [ [ "173", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"implicitMods": [ "20% increased Stun Duration on Enemies" ],
+			"explicitMods": [ "126% increased Physical Damage", "Adds 32-50 Physical Damage", "0.28% of Physical Attack Damage Leeched as Life", "13% increased Stun Duration on Enemies" ],
+			"frameType": 2,
+			"x": 4,
+			"y": 0,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		},
+		{
+			"verified": false,
+			"w": 2,
+			"h": 3,
+			"ilvl": 70,
+			"icon": "https://p7p4m6s5.ssl.hwcdn.net/image/Art/2DItems/Weapons/OneHandWeapons/OneHandAxes/OneHandAxe7.png?scale=1&w=2&h=3&v=f63cc1ee4b4855b1632e72ed79dd568c3",
+			"support": true,
+			"league": "Standard",
+			"id": "447c7b3eff3d357d23a6d34ac8c8170fb81b8e6b413935ad4fb0c8b71e40fa26",
+			"sockets": [
+				{
+					"group": 0,
+					"attr": "S"
+				}
+			],
+			"name": "<<set:MS>><<set:M>><<set:S>>Maelström Slayer",
+			"typeLine": "Royal Axe",
+			"identified": true,
+			"corrupted": false,
+			"lockedToCharacter": false,
+			"properties": [
+				{
+					"name": "One Handed Axe",
+					"values": [ ],
+					"displayMode": 0
+				},
+				{
+					"name": "Quality",
+					"values": [ [ "+20%", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Physical Damage",
+					"values": [ [ "118-219", 1 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Elemental Damage",
+					"values": [ [ "42-88", 4 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Critical Strike Chance",
+					"values": [ [ "5.00%", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Attacks per Second",
+					"values": [ [ "1.20", 0 ] ],
+					"displayMode": 0
+				}
+			],
+			"requirements": [
+				{
+					"name": "Level",
+					"values": [ [ "67", 0 ] ],
+					"displayMode": 0
+				},
+				{
+					"name": "Str",
+					"values": [ [ "167", 0 ] ],
+					"displayMode": 1
+				},
+				{
+					"name": "Dex",
+					"values": [ [ "57", 0 ] ],
+					"displayMode": 1
+				}
+			],
+			"explicitMods": [ "154% increased Physical Damage", "+34 to Dexterity", "Adds 42-88 Fire Damage", "+13 Life gained on Kill", "35% increased Stun Duration on Enemies" ],
+			"frameType": 2,
+			"x": 5,
+			"y": 6,
+			"inventoryId": "Stash109",
+			"socketedItems": [ ]
+		}
+	]
+}
