@@ -18,6 +18,7 @@
         }
     },
     "dependencies": {
+        "Model": "1.0.0-*",
         "NUnit": "3.2.0"
     }
 }

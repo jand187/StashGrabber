@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Globalization;
 using System.Linq;
-using System.Security.Cryptography.X509Certificates;
 using Model.SimpleModels;
 
 namespace Model.RichModels
@@ -24,7 +22,7 @@ namespace Model.RichModels
 				InventoryId = inputItem.InventoryId,
 				NumberOfSockets = inputItem.Sockets.Count(),
 				NumberOfLinkedSockets = GetLinkedSockets(inputItem.Sockets),
-				ExplicitMods= new List<PoeMod>(),
+				ExplicitMods = new List<PoeMod>()
 			};
 		}
 
@@ -32,12 +30,13 @@ namespace Model.RichModels
 		{
 			var links = 0;
 
-			for (var groupId = 0; groupId < 6; groupId++)
-			{
-				sockets.Where(s => s.group == groupId)
+			//for (var groupId = 0; groupId < 6; groupId++)
+			//{
+			//	sockets.Where(s => s.group == groupId)
 
+			//}
 
-			}
+			return links;
 		}
 	}
 
@@ -70,5 +69,7 @@ namespace Model.RichModels
 
 	public class PoeMod
 	{
+		public string Text { get; set; }
+		public int Value { get; set; }
 	}
 }
